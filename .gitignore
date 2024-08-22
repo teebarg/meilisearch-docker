@@ -1,0 +1,24 @@
+# Ignore the .env file (if you're storing secrets here)
+.env
+
+# Docker-related files
+.dockerignore
+docker-compose.override.yml
+
+# Ignore Docker volumes
+volumes/
+
+# Ignore local environment and configuration files
+.env.local
+.env.*.local
+.envrc
+
+# MacOS system files
+.DS_Store
+
+# Ignore specific IDE files
+.vscode/
+.idea/
+
+# Ignore Meilisearch data volume (if you want to exclude it from version control)
+meili_data/
